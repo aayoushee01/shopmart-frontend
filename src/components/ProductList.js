@@ -21,7 +21,7 @@ const ProductList = () => {
         <Grid container spacing={4} width="80vw">
           {[...Array(15).keys()].map((item) => (
             <Grid item xs={12} sm={6} md={4} lg={3} key={item} >
-              <Skeleton variant="rectangular" width={300} height={320} sx={{ borderRadius: '15px'}} />
+              <Skeleton variant="rectangular" width={250} height={320} sx={{ borderRadius: '15px'}} />
             </Grid>
           ))}
         </Grid>
